@@ -1,0 +1,17 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: orcl
+    url: jdbc:mysql://localhost:3306/Portfolio
+    
+    
+  data:
+    redis:
+      url: redis-17873.c212.ap-south-1-1.ec2.cloud.redislabs.com
+      username: default
+      password: IoYhz0KGld8a8LhWYcZifGB80tLcJWwD
+      port: 17873
